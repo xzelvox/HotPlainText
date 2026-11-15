@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プレーンテキスト化</title>
+<style>
+  :root { color-scheme: light dark; --bg:#fafafa; --fg:#222; --line:#ccc; --btn:#2563eb; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#1e1e1e; --fg:#e6e6e6; --line:#444; --btn:#3b82f6; } }
+  * { box-sizing: border-box; }
+  body { margin:0; padding:16px; height:100vh; display:flex; flex-direction:column; gap:10px;
+         background:var(--bg); color:var(--fg); font:14px -apple-system, "Hiragino Sans", sans-serif; }
+  .bar { display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+  button { padding:8px 16px; border:0; border-radius:6px; background:var(--btn); color:#fff; font-size:14px; cursor:pointer; }
+  button.sub { background:transparent; color:var(--fg); border:1px solid var(--line); }
+  #msg { margin-left:auto; opacity:.7; }
+  textarea { flex:1; width:100%; padding:12px; border:1px solid var(--line); border-radius:6px; resize:none;
+             background:transparent; color:var(--fg); font:15px/1.6 ui-monospace, Menlo, monospace; }
+</style>
+</head>
+<body>
+  <div class="bar">
+    <button id="copy">すべてコピー</button>
+    <button id="clear" class="sub">クリア</button>
+    <span id="msg">0 文字</span>
+  </div>
+  <!-- textarea は書式を持てないので、貼り付けた時点でプレーンテキストになる -->
+  <textarea id="t" placeholder="ここに貼り付け（⌘V）" autofocus spellcheck="false"></textarea>
+<script>
+  const t = document.getElementById('t');
+  const msg = document.getElementById('msg');
+  const count = () => { msg.textContent = t.value.length + ' 文字'; };
+  t.addEventListener('input', count);
+
+  document.getElementById('copy').addEventListener('click', async () => {
+    try {
+      await navigator.clipboard.writeText(t.value);
+    } catch {
+      // clipboard API が使えない環境向けの予備
+      t.select();
+      document.execCommand('copy');
+    }
+    msg.textContent = 'コピーしました';
+    setTimeout(count, 1500);
+  });
+
+  document.getElementById('clear').addEventListener('click', () => {
+    t.value = '';
+    count();
+    t.focus();
+  });
+</script>
+</body>
+</html>

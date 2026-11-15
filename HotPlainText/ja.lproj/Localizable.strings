@@ -1,0 +1,40 @@
+/* 日本語 */
+
+"%d characters" = "%d 文字";
+"Clear" = "クリア";
+"Copied" = "コピーしました";
+
+"Launch at login" = "ログイン時に起動する";
+"  Accessibility: Allowed" = "  アクセシビリティ: 許可あり";
+"Open Window" = "ウインドウを開く";
+"Quit" = "終了";
+
+"Couldn’t change Launch at login" = "ログイン時に起動する設定を変更できませんでした";
+"%@\nPlease set it in System Settings › General › Login Items & Extensions." = "%@\n「システム設定 › 一般 › ログイン項目と機能拡張」で設定してください。";
+
+"⌃⌘C needs Accessibility permission" = "⌃⌘C にはアクセシビリティの許可が必要です";
+"Open System Settings" = "システム設定を開く";
+"Close" = "閉じる";
+"accessibility.guide" = "1. 「システム設定を開く」を押します。\n2. 一覧に HotPlainText があれば、選んで「−」で消します。\n   (アプリを作り直した後は、以前の許可が効かないことがあります)\n3. 「+」を押し、アプリケーションフォルダの HotPlainText を追加します。\n   (一緒に開く Finder の窓からドラッグしても追加できます)\n4. 追加した HotPlainText をオンにします。\n5. 許可がオンになると、HotPlainText が自動で開き直します。\n\nメニューに「アクセシビリティ: 許可あり」と出れば完了です。";
+
+"Quit HotPlainText" = "HotPlainText を終了";
+"File" = "ファイル";
+"Close Window" = "ウインドウを閉じる";
+"Edit" = "編集";
+"Undo" = "取り消す";
+"Redo" = "やり直す";
+"Cut" = "カット";
+"Copy" = "コピー";
+"Copy as Plain Text" = "文字だけでコピー";
+"Paste" = "ペースト";
+"Select All" = "すべてを選択";
+
+"Language" = "言語";
+"Same as System" = "システムと同じ";
+
+"  Accessibility: Not allowed" = "  アクセシビリティ: 許可なし";
+"Click for help" = "押すと付け方を表示";
+
+"Swap ⌘C and ⌃⌘C" = "⌘C と ⌃⌘C を入れ替える";
+"Plain-text copy" = "文字だけのコピー";
+"Copy with formatting" = "書式付きのコピー";

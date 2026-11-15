@@ -1,0 +1,36 @@
+/* フランス語 */
+
+"%d characters" = "%d caractères";
+"Clear" = "Effacer";
+"Copied" = "Copié";
+"Launch at login" = "Ouvrir à la connexion";
+"  Accessibility: Allowed" = "  Accessibilité : autorisée";
+"Open Window" = "Ouvrir la fenêtre";
+"Quit" = "Quitter";
+"Couldn’t change Launch at login" = "Impossible de modifier l’ouverture à la connexion";
+"%@\nPlease set it in System Settings › General › Login Items & Extensions." = "%@\nRéglez-la dans Réglages Système › Général › Ouverture et extensions.";
+"⌃⌘C needs Accessibility permission" = "⌃⌘C nécessite l’autorisation d’accessibilité";
+"Open System Settings" = "Ouvrir Réglages Système";
+"Close" = "Fermer";
+"accessibility.guide" = "1. Cliquez sur « Ouvrir Réglages Système ».\n2. Si HotPlainText figure déjà dans la liste, sélectionnez-le et supprimez-le avec « − ».\n   (Après une recompilation de l’app, une ancienne autorisation peut ne plus fonctionner.)\n3. Cliquez sur « + » et ajoutez HotPlainText depuis le dossier Applications.\n   (Vous pouvez aussi le faire glisser depuis la fenêtre du Finder qui s’ouvre.)\n4. Activez le HotPlainText que vous venez d’ajouter.\n5. Dès que l’autorisation est activée, HotPlainText se rouvre tout seul.\n\nC’est terminé lorsque le menu affiche « Accessibilité : autorisée ».";
+"Quit HotPlainText" = "Quitter HotPlainText";
+"File" = "Fichier";
+"Close Window" = "Fermer la fenêtre";
+"Edit" = "Édition";
+"Undo" = "Annuler";
+"Redo" = "Rétablir";
+"Cut" = "Couper";
+"Copy" = "Copier";
+"Copy as Plain Text" = "Copier en texte brut";
+"Paste" = "Coller";
+"Select All" = "Tout sélectionner";
+
+"Language" = "Langue";
+"Same as System" = "Comme le système";
+
+"  Accessibility: Not allowed" = "  Accessibilité : non autorisée";
+"Click for help" = "Cliquez pour l’aide";
+
+"Swap ⌘C and ⌃⌘C" = "Inverser ⌘C et ⌃⌘C";
+"Plain-text copy" = "Copie en texte brut";
+"Copy with formatting" = "Copie avec mise en forme";

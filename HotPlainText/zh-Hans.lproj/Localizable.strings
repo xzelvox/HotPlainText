@@ -1,0 +1,36 @@
+/* 中国語(簡体字) */
+
+"%d characters" = "%d 个字符";
+"Clear" = "清除";
+"Copied" = "已拷贝";
+"Launch at login" = "登录时启动";
+"  Accessibility: Allowed" = "  辅助功能:已允许";
+"Open Window" = "打开窗口";
+"Quit" = "退出";
+"Couldn’t change Launch at login" = "无法更改“登录时启动”";
+"%@\nPlease set it in System Settings › General › Login Items & Extensions." = "%@\n请在“系统设置 › 通用 › 登录项与扩展”中设置。";
+"⌃⌘C needs Accessibility permission" = "⌃⌘C 需要辅助功能权限";
+"Open System Settings" = "打开系统设置";
+"Close" = "关闭";
+"accessibility.guide" = "1. 点按“打开系统设置”。\n2. 如果列表中已有 HotPlainText,请选中它并点按“−”将其移除。\n   (重新构建应用后,旧的权限可能不再有效)\n3. 点按“+”,从“应用程序”文件夹中添加 HotPlainText。\n   (也可以从同时打开的访达窗口中拖入)\n4. 打开刚添加的 HotPlainText 的开关。\n5. 权限打开后,HotPlainText 会自动重新打开。\n\n菜单中显示“辅助功能:已允许”即表示完成。";
+"Quit HotPlainText" = "退出 HotPlainText";
+"File" = "文件";
+"Close Window" = "关闭窗口";
+"Edit" = "编辑";
+"Undo" = "撤销";
+"Redo" = "重做";
+"Cut" = "剪切";
+"Copy" = "拷贝";
+"Copy as Plain Text" = "拷贝为纯文本";
+"Paste" = "粘贴";
+"Select All" = "全选";
+
+"Language" = "语言";
+"Same as System" = "跟随系统";
+
+"  Accessibility: Not allowed" = "  辅助功能:未允许";
+"Click for help" = "点按查看设置方法";
+
+"Swap ⌘C and ⌃⌘C" = "交换 ⌘C 和 ⌃⌘C";
+"Plain-text copy" = "纯文本拷贝";
+"Copy with formatting" = "保留格式拷贝";

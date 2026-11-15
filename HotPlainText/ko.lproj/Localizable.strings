@@ -1,0 +1,36 @@
+/* 韓国語 */
+
+"%d characters" = "%d자";
+"Clear" = "지우기";
+"Copied" = "복사됨";
+"Launch at login" = "로그인 시 실행";
+"  Accessibility: Allowed" = "  손쉬운 사용: 허용됨";
+"Open Window" = "윈도우 열기";
+"Quit" = "종료";
+"Couldn’t change Launch at login" = "‘로그인 시 실행’을 변경할 수 없습니다";
+"%@\nPlease set it in System Settings › General › Login Items & Extensions." = "%@\n시스템 설정 › 일반 › 로그인 항목 및 확장 프로그램에서 설정하십시오.";
+"⌃⌘C needs Accessibility permission" = "⌃⌘C를 사용하려면 손쉬운 사용 권한이 필요합니다";
+"Open System Settings" = "시스템 설정 열기";
+"Close" = "닫기";
+"accessibility.guide" = "1. ‘시스템 설정 열기’를 클릭합니다.\n2. 목록에 HotPlainText가 있으면 선택한 다음 ‘−’로 제거합니다.\n   (앱을 다시 빌드한 후에는 이전 권한이 작동하지 않을 수 있습니다)\n3. ‘+’를 클릭하고 응용 프로그램 폴더에서 HotPlainText를 추가합니다.\n   (함께 열리는 Finder 윈도우에서 끌어다 놓아도 됩니다)\n4. 추가한 HotPlainText를 켭니다.\n5. 권한이 켜지면 HotPlainText가 자동으로 다시 열립니다.\n\n메뉴에 ‘손쉬운 사용: 허용됨’이 표시되면 완료입니다.";
+"Quit HotPlainText" = "HotPlainText 종료";
+"File" = "파일";
+"Close Window" = "윈도우 닫기";
+"Edit" = "편집";
+"Undo" = "실행 취소";
+"Redo" = "실행 복귀";
+"Cut" = "오려두기";
+"Copy" = "복사하기";
+"Copy as Plain Text" = "서식 없이 복사";
+"Paste" = "붙여넣기";
+"Select All" = "전체 선택";
+
+"Language" = "언어";
+"Same as System" = "시스템과 동일";
+
+"  Accessibility: Not allowed" = "  손쉬운 사용: 허용 안 됨";
+"Click for help" = "클릭하여 설정 방법 보기";
+
+"Swap ⌘C and ⌃⌘C" = "⌘C와 ⌃⌘C 바꾸기";
+"Plain-text copy" = "서식 없이 복사";
+"Copy with formatting" = "서식 포함 복사";
